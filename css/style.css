@@ -106,7 +106,7 @@ box-sizing: border-box;
   
   
   
-@media screen and (min-width: 780px) {
+@media screen and (max-width: 780px) {
 
 
   body{
@@ -140,7 +140,7 @@ box-sizing: border-box;
 }
 
 .menu {
-    width: 150px
+    width: 100px
 }
 .calculator {
     background-color: rgba(247, 80, 219, 0.664);
@@ -150,6 +150,7 @@ box-sizing: border-box;
     border-color: #ff00c8;
     border-width: 4px;
     padding: 15px;
+    
 }
 
 
@@ -210,6 +211,11 @@ box-sizing: border-box;
     display: flex;
     flex-direction: column; 
     flex-flow: wrap;
+    
+    border-style:ridge;
+    border-color: #ff00c8;
+    border-width: 4px;
+    padding: 15px;
     }
     .tablitca {order: 2;}
     .form{order:1}
